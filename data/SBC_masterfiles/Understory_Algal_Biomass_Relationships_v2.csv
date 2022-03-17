@@ -1,0 +1,85 @@
+SP_CODE,GENUS,SPECIES,_N,SE,Measurement_type,density_slope,Slope_g_dry_m2,density_slope_2015,density_slope_2018
+AMZO,Amphiroa,zonata,-99999,-99999,Percent Cover,-99999,2.02,-99999,-99999
+ANPA,Anisocladella,pacifica,-99999,-99999,Percent Cover,-99999,1.22,-99999,-99999
+AU,Acrosorium,uncinatum,-99999,-99999,Percent Cover,-99999,0.7,-99999,-99999
+BF,Cryptopleura,farlowianum,26,-99999,Percent Cover,-99999,3.88,-99999,-99999
+BLD,Unidentified brown blade,spp.,-99999,0.92,Count,-99999,1.16,-99999,-99999
+BO,Bossiella,orbigniana,38,-99999,Percent Cover,-99999,2.02,-99999,-99999
+BR,Blady red,spp.,25,-99999,Percent Cover,-99999,1.24,-99999,-99999
+BRA,Branching Red Algae,spp.,-99999,-99999,Percent Cover,-99999,1.22,-99999,-99999
+CAL,Calliarthron,cheilosporioid,-99999,-99999,Percent Cover,-99999,2.02,-99999,-99999
+CC,Chondracanthus,spp.,25,-99999,Percent Cover,-99999,1.69,-99999,-99999
+CF,Callophyllis,flabellulata,-99999,-99999,Percent Cover,-99999,0.7,-99999,-99999
+CG,Cladophora,graminea,-99999,-99999,Percent Cover,-99999,0.67,-99999,-99999
+CO,Corallina,officinalis,34,-99999,Percent Cover,-99999,2.13,-99999,-99999
+COF,Codium,fragile,-99999,-99999,Percent Cover,-99999,2.25,-99999,-99999
+CP,Colpomenia,spp.,-99999,-99999,Percent Cover,-99999,3.24,-99999,-99999
+CRYP,Cryptopleura,spp.,-99999,-99999,Percent Cover,-99999,3.88,-99999,-99999
+CYJ,Cystoseira,osmundaceae,72,0.15,Count,-99999,0.13,-99999,-99999
+CYOS,Cystoseira,osmundaceae,33,-99999,Percent Cover,16.94,3.35,16.33,16.94
+CYOS_R,Cystoseira,osmundaceae,105,-99999,Total Length of Repro Fronds in cm,-99999,0.03,-99999,-99999
+CZ,Chondracanthus,spinosa,-99999,-99999,Percent Cover,-99999,1.69,-99999,-99999
+DIAT,Diatom,Mat,-99999,-99999,Percent Cover,-99999,0.33,-99999,-99999
+DL,Desmarestia,ligulata,22,-99999,Percent Cover,-99999,2.61,-99999,-99999
+DP,Dictyota,spp.,24,-99999,Percent Cover,-99999,1.08,-99999,-99999
+DU,Dictyopteris,undulata,-99999,-99999,Percent Cover,-99999,1.08,-99999,-99999
+EA,Eisenia,arborea,74,-99999,No. Blades > 30cm,80.05,2.99,79.31,80.05
+EAJ,Eisenia,arborea,82,0.01,Count,-99999,5.02,-99999,-99999
+EC,Encrusting,coralline,-99999,-99999,Percent Cover,-99999,0.33,-99999,-99999
+EGJ,Egregia,menziesii,-99999,0.27,Count,-99999,0.37,-99999,-99999
+EGME,Egregia,menziesii,11,-99999,Number of fronds at 1m,127.94,56.63,155.91,127.94
+ER,Encrusting,red,-99999,-99999,Percent Cover,-99999,0.33,-99999,-99999
+FASP,Fauchea,spp.,-99999,-99999,Percent Cover,-99999,1.22,-99999,-99999
+FB,Filamentous brown,spp.,19,-99999,Percent Cover,-99999,0.33,-99999,-99999
+FG,Filamentous green,spp.,-99999,-99999,Percent Cover,-99999,0.8,-99999,-99999
+FR,Filamentous red,spp.,-99999,-99999,Percent Cover,-99999,0.8,-99999,-99999
+FTHR,Neoptilota Ptilota Rhodoptilum,spp.,-99999,-99999,Percent Cover,-99999,0.7,-99999,-99999
+GEL,Gelidium,spp.,-99999,-99999,Percent Cover,-99999,2.25,-99999,-99999
+GR,Gelidium,robustum,-99999,-99999,Percent Cover,-99999,2.25,-99999,-99999
+GS,Gracilaria,spp.,-99999,-99999,Percent Cover,-99999,2.25,-99999,-99999
+GYSP,Gymnogongrus,spp.,-99999,-99999,Percent Cover,-99999,1.22,-99999,-99999
+HAGL,Halosaccion,glandiforme,-99999,-99999,Percent Cover,-99999,3.24,-99999,-99999
+IR,Iridaea,spp.,-99999,-99999,Percent Cover,-99999,1.69,-99999,-99999
+LAFA,Laminaria,farlowii,52,-99999,Mean blade length in cm,37.66,0.31,26.72,37.66
+LFJ,Laminaria,farlowii,20,0.04,Count,-99999,0.56,-99999,-99999
+LI,Lithothrix,spp.,-99999,-99999,Percent Cover,-99999,2.13,-99999,-99999
+LS,Laurencia,spp.,26,-99999,Percent Cover,-99999,1.96,-99999,-99999
+LX,Osmundea,spectabilis,-99999,-99999,Percent Cover,-99999,1.96,-99999,-99999
+MAPY,Macrocystis,pyrifera,-99999,0.92,Count,-99999,1.16,-99999,-99999
+MPJ,Macrocystis,pyrifera,-99999,0.92,Count,-99999,1.16,-99999,-99999
+MPJ33,Macrocystis,pyrifera,-99999,0.27,Count,-99999,0.37,-99999,-99999
+MPJ66,Macrocystis,pyrifera,75,1.03,Count,-99999,1.86,-99999,-99999
+MPJ99,Macrocystis,pyrifera,21,4.16,Count,-99999,4.76,-99999,-99999
+NA,Nienburgia,andersoniana,-99999,-99999,Percent Cover,-99999,0.7,-99999,-99999
+NEO,Neoagardhiella,baileyi,-99999,-99999,Percent Cover,-99999,2.25,-99999,-99999
+PHSE,Phycodrys,setchellii,-99999,-99999,Percent Cover,-99999,1.22,-99999,-99999
+PHTO,Phyllospadix,torreyi,-99999,-99999,Percent Cover,-99999,2.61,-99999,-99999
+PL,Prionitis,lanceolata,-99999,-99999,Percent Cover,-99999,1.69,-99999,-99999
+POLA,Polyneura,latissima,-99999,-99999,Percent Cover,-99999,3.24,-99999,-99999
+PRSP,Prionitis,spp.,-99999,-99999,Percent Cover,-99999,1.69,-99999,-99999
+PTCA,Pterygophora,californica,146,-99999,No. Blades > 30cm,50.81,5.15,51.5,50.81
+PTJ,Pterygophora,californica,27,0.32,Count,-99999,0.51,-99999,-99999
+PTL,Pterygophora,californica,84,0.71,Count,-99999,1.37,-99999,-99999
+R,Rhodymenia,californica,-99999,-99999,Percent Cover,-99999,1.22,-99999,-99999
+RAT,Red Algal Turf,spp.,-99999,-99999,Percent Cover,-99999,0.67,-99999,-99999
+SAFU,Sarcodiotheca,furcata,-99999,-99999,Percent Cover,-99999,0.7,-99999,-99999
+SAGA,Sarcodiotheca gaudichaudii,spp.,-99999,-99999,Percent Cover,-99999,2.25,-99999,-99999
+SAHO,Sargassum,horneri,-99999,-99999,Frond length in cm,-99999,0.062,-99999,-99999
+SAMU,Sargassum,muticum,-99999,-99999,Frond length in cm,15.48,0.215,-99999,15.48
+SCCA,Scinaia,confusa,-99999,-99999,Percent Cover,-99999,2.25,-99999,-99999
+SELO,Scytosiphon,lomentaria,-99999,-99999,Percent Cover,-99999,1.08,-99999,-99999
+SHJ,Sargassum,horneri,-99999,-99999,Count,-99999,0.06,-99999,-99999
+SMJ,Sargassum,muticum,-99999,-99999,Count,-99999,0.23,-99999,-99999
+STIN,Stenogramme,interrupta,-99999,-99999,Percent Cover,-99999,1.22,-99999,-99999
+TALE,Taonia,lennebackerae,-99999,-99999,Percent Cover,-99999,1.08,-99999,-99999
+UBB,Unidentified brown blade,spp.,-99999,-99999,Percent Cover,-99999,1.24,-99999,-99999
+UEC,Unidentified erect coralline,spp.,-99999,-99999,Percent Cover,-99999,2.13,-99999,-99999
+UV,Ulva,spp.,-99999,-99999,Percent Cover,-99999,1.08,-99999,-99999
+ZOMA,Zostera,marina,-99999,-99999,Percent Cover,-99999,2.61,-99999,-99999
+CH,-99999,-99999,-99999,-99999,Remove Holdfast,-99999,-99999,-99999,-99999
+DMH,-99999,-99999,-99999,-99999,Remove Holdfast,-99999,-99999,-99999,-99999
+EAH,-99999,-99999,-99999,-99999,Remove Holdfast,-99999,-99999,-99999,-99999
+EH,-99999,-99999,-99999,-99999,Remove Holdfast,-99999,-99999,-99999,-99999
+LH,-99999,-99999,-99999,-99999,Remove Holdfast,-99999,-99999,-99999,-99999
+MH,-99999,-99999,-99999,-99999,Remove Holdfast,-99999,-99999,-99999,-99999
+PH,-99999,-99999,-99999,-99999,Remove Holdfast,-99999,-99999,-99999,-99999

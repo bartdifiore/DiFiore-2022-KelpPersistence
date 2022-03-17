@@ -1,0 +1,859 @@
+YEAR,MONTH,DATE,SITE,TRANSECT,SP_CODE,DENSITY,WM_GM2,DRY_GM2,AFDM,SCIENTIFIC_NAME,COMMON_NAME,TAXON_KINGDOM,TAXON_PHYLUM,TAXON_CLASS,TAXON_ORDER,TAXON_FAMILY,TAXON_GENUS,GROUP,SURVEY,MOBILITY,GROWTH_MORPH
+2018,9,2018-09-03,OAKS,1,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,OCAL,0.225,10.18,2.5959,2.0869,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,PCLA,0.1,42.96,10.9548,8.8068,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,OCAL,0.1875,10.36,2.6418,2.1238,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,PCLA,0.1125,28.32,7.2216,5.8056,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,PFUR,0.225,28.35,7.22925,5.81175,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,DVAC,0.025,3.76,0.9588,0.7708,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,HCAR,0.0375,4.31,1.09905,0.88355,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,PCLA,0.0625,24.22,6.1761,4.9651,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,PFUR,0.15,14.04,3.5802,2.8782,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-03,OAKS,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,BRAY,0.0125,401.56,114.4446,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,OCAL,0.0375,0.38,0.0969,0.0779,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,PCLA,0.2,14.75,3.76125,3.02375,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,PFUR,0.025,1.55,0.39525,0.31775,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,BFRE,0.05,1.11,0.28305,0.22755,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,EJAC,0.0625,9.94,2.5347,2.0377,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,HCAR,0.025,2.01,0.51255,0.41205,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,OCAL,0.0625,2.83,0.72165,0.58015,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,PCLA,0.1375,15.94,4.0647,3.2677,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,PFUR,0.05,3.7,0.9435,0.7585,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,SPUL,0.025,13.94,3.5547,2.8577,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,BFRE,0.0375,0.47,0.11985,0.09635,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,DVAC,0.0375,2.39,0.60945,0.48995,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,EJAC,0.0375,2.37,0.60435,0.48585,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,HCAR,0.0125,0.87,0.22185,0.17835,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,LHIR,0.15,0.0025,0.0006375,0.0005125,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,OCAL,0.1125,4.26,1.0863,0.8733,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,PCLA,0.2,44.18,11.2659,9.0569,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-10,HORA,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,CLIN,0.05,0.1,0.0255,0.0205,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,PCLA,0.025,7.54,1.9227,1.5457,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,GOLB,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,ANDA,0.0625,34.49,8.79495,7.07045,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,CLIN,0.0125,0.0775,0.0197625,0.0158875,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,EJAC,0.0125,4.88,1.2444,1.0004,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,OCAL,0.1125,4.26,1.0863,0.8733,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,OPIC,0.0125,0.0925,0.0235875,0.0189625,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,PCLA,0.1875,82.33,20.99415,16.87765,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,PFUR,0.0375,2.53,0.64515,0.51865,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,SGUT,0.0125,0.26,0.0663,0.0533,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,SPUL,0.0375,17.81,4.54155,3.65105,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,ANDA,0.325,72.49,18.48495,14.86045,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,CLIN,0.0125,0.02,0.0051,0.0041,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,MCAL,0.05,21.48,5.4774,4.4034,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,OCAL,0.15,4.38,1.1169,0.8979,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,PCLA,0.2625,56.52,14.4126,11.5866,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,SPUL,0.0125,2.28,0.5814,0.4674,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,ANDA,0.15,97.87,24.95685,20.06335,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,MCAL,0.1,66.38,16.9269,13.6079,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,OCAL,0.0625,2.83,0.72165,0.58015,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,PCLA,0.125,37.71,9.61605,7.73055,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,PFUR,0.1,9.36,2.3868,1.9188,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-11,STEP,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,CLIN,0.025,0.0075,0.0019125,0.0015375,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,OCAL,0.075,4.14,1.0557,0.8487,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,PCLA,0.1625,56.57,14.42535,11.59685,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,SPUL,0.0375,11.72,2.9886,2.4026,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,9,TSEM,0.0125,155.8,44.403,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,HROS,0.0125,0.01,0.00255,0.00205,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,PCLA,0.0125,3.35,0.85425,0.68675,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,10,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,BOTH,0.0125,1.96,0.4998,0.4018,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,CLIN,0.0125,0.005,0.001275,0.001025,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,COTT,0.0125,0.005,0.001275,0.001025,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,HROS,0.0125,0.13,0.03315,0.02665,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,LHIR,0.0125,0.0225,0.0057375,0.0046125,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,PCLA,0.05,32.36,8.2518,6.6338,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,IVEE,11,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,PCLA,0.075,0.12,0.0306,0.0246,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-12,MESA,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,HARG,0.375,43.38,11.0619,8.8929,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,PCLA,0.0375,18.41,4.69455,3.77405,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,MESA,3,OPIC,0.0125,0.04,0.0102,0.0082,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,1,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,1,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,1,COTT,0.0125,0.1675,0.0427125,0.0343375,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,1,OPIC,0.0125,0.18,0.0459,0.0369,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,2,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,2,COTT,0.0125,0.5925,0.1510875,0.1214625,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,2,LHIR,0.0375,10.28,2.6214,2.1074,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,2,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-13,OAKS,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,OCAL,0.15,8.29,2.11395,1.69945,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,PCLA,0.0375,6.13,1.56315,1.25665,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,CLIN,0.025,0.1275,0.0325125,0.0261375,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,HROS,0.0125,0.28,0.0714,0.0574,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,HSEM,0.025,3.73,0.95115,0.76465,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,OCAL,0.1,7.01,1.78755,1.43705,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,PCLA,0.0875,21.89,5.58195,4.48745,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,OCAL,0.05,0.84,0.2142,0.1722,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,PCLA,0.0375,10.11,2.57805,2.07255,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,LEAD,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,HROS,0.0125,1,0.255,0.205,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,OCAL,0.0875,3.26,0.8313,0.6683,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,PCLA,0.075,10.18,2.5959,2.0869,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-14,MESA,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,PCLA,0.0625,23.5,5.9925,4.8175,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,PNEB,0.05,45.98,11.7249,9.4259,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,HSEM,0.0125,0.84,0.2142,0.1722,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,PCLA,0.1375,45.53,11.61015,9.33365,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,PNEB,0.0125,14.33,3.65415,2.93765,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,SPUL,0.05,17.06,4.3503,3.4973,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,EJAC,0.025,7.69,1.96095,1.57645,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,HRUB,0.0375,19.41,4.94955,3.97905,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,OPIC,0.0375,0.58,0.1479,0.1189,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,PCLA,0.1875,48.22,12.2961,9.8851,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,RTOX,0.0125,10.03,2.55765,2.05615,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,SATR,0.0375,2.07,0.52785,0.42435,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,SPUL,0.0875,71.81,18.31155,14.72105,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,SSER,0.05,4.67,1.19085,0.95735,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-24,WOOD,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,CNIC,0.0125,0.0325,0.0082875,0.0066625,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,OCAL,0.025,0.93,0.23715,0.19065,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,PCLA,0.0375,4.02,1.0251,0.8241,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,SPUL,0.0125,4.9,1.2495,1.0045,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,COTT,0.0125,0.02,0.0051,0.0041,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,HSEM,0.05,5.64,1.4382,1.1562,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,OCAL,0.0625,2.29,0.58395,0.46945,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,PCLA,0.1375,47.09,12.00795,9.65345,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,SPUL,0.025,6.88,1.7544,1.4104,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,CLIN,0.0125,0.02,0.0051,0.0041,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,HSEM,0.025,2.01,0.51255,0.41205,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,OCAL,0,0,0,0,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,PCLA,0.0375,14.31,3.64905,2.93355,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,9,2018-09-25,INNP,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,ANDA,0.05,16.01,4.08255,3.28205,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,HSEM,0.025,2.44,0.6222,0.5002,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,OCAL,0.15,4.38,1.1169,0.8979,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,OPIC,0.0375,0.8425,0.2148375,0.1727125,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,PCLA,0.1,14.64,3.7332,3.0012,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,SPUL,0.0375,9.02,2.3001,1.8491,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,ANDA,0.1875,58.13,14.82315,11.91665,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,EJAC,0.075,12.3,3.1365,2.5215,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,HSEM,0.025,1.87,0.47685,0.38335,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,OCAL,0.3625,13.21,3.36855,2.70805,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,OPIC,0.0375,0.9225,0.2352375,0.1891125,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,PCLA,0.175,24.38,6.2169,4.9979,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,SATR,0.1375,16.27,4.14885,3.33535,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,SPUL,0.2625,70.14,17.8857,14.3787,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,SSER,0.0375,0.75,0.19125,0.15375,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-23,TANK,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,OCAL,0.0875,5.37,1.36935,1.10085,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,PCLA,0.0375,6.18,1.5759,1.2669,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,1,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,HSEM,0.025,3.73,0.95115,0.76465,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,OCAL,0.25,13.81,3.52155,2.83105,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,PCAL,0.025,2.34,0.5967,0.4797,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,PCLA,0,0,0,0,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,2,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,BFRE,0,0,0,0,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,HSEM,0.025,3.3,0.8415,0.6765,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,MCAL,0.0375,7.49,1.90995,1.53545,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,OCAL,0.5875,22.71,5.79105,4.65555,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,PCLA,0.3,79.32,20.2266,16.2606,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,PFUR,0.025,1.55,0.39525,0.31775,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,PNEB,0.025,21.94,5.5947,4.4977,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,REFU,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,ANDA,0,0,0,0,Anisotremus davidsonii,Sargo,Animalia,Chordata,Actinopterygii,Perciformes,Haemulidae,Anisotremus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,BFRE,0.05,1.39,0.35445,0.28495,Brachyistius frenatus,Kelp Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Brachyistius,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,BOTH,0,0,0,0,Bothid,Unidentified Flatfish spp.,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Bothidae,NA,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,BRAY,0,0,0,NA,Myliobatis californica,Bat Ray,Animalia,Chordata,Elasmobranchii,Myliobatiformes,Myliobatidae,Myliobatis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,CLIN,0,0,0,0,Gibbonsia,Crevice Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Gibbonsia,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,CNIC,0,0,0,0,Rhinogobiops nicholsii,Blackeye Goby,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Rhinogobiops,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,COTT,0,0,0,0,Cottidae,Unidentified Sculpin Spp,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,NA,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,DVAC,0,0,0,0,Rhacochilus vacca,Pile Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,EJAC,0,0,0,0,Embiotoca jacksoni,Black Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Embiotoca,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,HARG,0,0,0,0,Hyperprosopon argenteum,Walleye Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hyperprosopon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,HCAR,0,0,0,0,Hypsurus caryi,Rainbow Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Hypsurus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,HROS,0,0,0,0,Heterostichus rostratus,Giant Kelpfish,Animalia,Chordata,Actinopterygii,Perciformes,Clinidae,Heterostichus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,HRUB,0,0,0,0,Hypsypops rubicundus,Garibaldi,Animalia,Chordata,Actinopterygii,Perciformes,Pomacentridae,Hypsypops,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,HSEM,0,0,0,0,Halichoeres semicinctus ,Rock Wrasse,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Halichoeres,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,LHIR,0,0,0,0,Leiocottus hirundo,Lavender Sculpin,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Leiocottus,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,MCAL,0,0,0,0,Medialuna californiensis,Halfmoon,Animalia,Chordata,Actinopterygii,Perciformes,Kyphosidae,Medialuna,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,OCAL,0.0625,2.77,0.70635,0.56785,Oxyjulis californica,Senorita,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Oxyjulis,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,OPIC,0,0,0,0,Oxylebius pictus,Painted Greenling,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Oxylebius,FISH,CRYPTIC FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,PCAL,0,0,0,0,Paralichthys californicus,California Halibut,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Paralichthyidae,Paralichthys,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,PCLA,0.0375,13.42,3.4221,2.7511,Paralabrax clathratus,Kelp Bass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,PFUR,0,0,0,0,Phanerodon furcatus,White Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Phanerodon,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,PNEB,0,0,0,0,Paralabrax nebulifer,Barred Sandbass,Animalia,Chordata,Actinopterygii,Perciformes,Serranidae,Paralabrax,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,RTOX,0,0,0,0,Rhacochilus toxotes,Rubberlip Surfperch,Animalia,Chordata,Actinopterygii,Perciformes,Embiotocidae,Rhacochilus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,SATR,0,0,0,0,Sebastes atrovirens,Kelp Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,SGUT,0,0,0,0,Scorpaena guttata,California Scorpionfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Scorpaenidae,Scorpaena,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,SPUL,0,0,0,0,Semicossyphus pulcher,California Sheephead,Animalia,Chordata,Actinopterygii,Perciformes,Labridae,Semicossyphus,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,SSER,0,0,0,0,Sebastes serranoides,Olive Rockfish,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,FISH,FISH,MOBILE,SOLITARY
+2018,10,2018-10-24,TANK,3,TSEM,0,0,0,NA,Triakis semifasciata,Leopard Shark,Animalia,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Triakis,FISH,FISH,MOBILE,SOLITARY
