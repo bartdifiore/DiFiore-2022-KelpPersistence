@@ -138,27 +138,67 @@ psych::pairs.panels(persistence %>% select(mean.canopy, cv.canopy, d, pv), ellip
 
 # merge non-core sites with data from core sites in 2018
 
-# Noncore site data
-df <- read.csv("data/raw/benthic_kelppersistence_20210908.csv") %>%
-  select(-SURVEY)
-
 #LTER data
 lt <- read.csv("data/raw/Annual_All_Species_Biomass_at_transect_20210108.csv", stringsAsFactors = F,na.strings ="-99999") %>%
-  select(names(df)) %>%
-  filter(YEAR == 2018)
+  filter(YEAR == 2018) %>%
+  mutate(survey = "core") %>%
+  rename_all(tolower)
+
+
+sp.meta <- lt %>% 
+  select(sp_code, scientific_name:coarse_grouping) %>%
+  distinct()
+
+
+
+# Noncore site data
+df <- read.csv("data/raw/BartsBenthic_All_Species_Biomass_at_transect_20220424.csv", stringsAsFactors = F,na.strings ="-99999") %>% 
+  mutate(survey = "noncore") %>%
+  rename_all(tolower)
+
+
+sp.bart <- unique(df$sp_code)
+
+sp.lt <- unique(lt$sp_code)
+
+
+notinbart <- setdiff(sp.lt, sp.bart) # need to zero fill each of these species for each transect
+notinlt <- setdiff(sp.bart, sp.lt)
+
 
 dat <- bind_rows(df, lt) %>%
-  rename_all(tolower) %>%
-  mutate(group = case_when(coarse_grouping == "SESSILE INVERT" & !sp_code %in% c("PACA", "CHOV") ~ "endoSI", 
+  select(site:sp_code, wm_gm2, survey) %>%
+  complete(sp_code, 
+           nesting(site, transect, survey), 
+           fill = list(wm_gm2 = 0)) %>%
+  left_join(sp.meta) %>% 
+  mutate(group = case_when(coarse_grouping == "SESSILE INVERT" & !sp_code %in% c("PACA", "CHOV") ~ "epiSI", 
                            coarse_grouping == "GIANT KELP" ~ "kelp",
-                           coarse_grouping == "UNDERSTORY ALGAE" ~ "ua")) %>%
-  select(c(year:common_name, group)) %>%
-  filter(group %in% c("endoSI", "kelp", "ua")) %>%
-  left_join(persistence) 
+                           coarse_grouping == "UNDERSTORY ALGAE" ~ "ua", 
+                           coarse_grouping == "FISH" ~ "fish", 
+                           coarse_grouping == "MOBILE INVERT" ~ "mobile_invert", 
+                           coarse_grouping == "SESSILE INVERT" & sp_code %in% c("PACA", "CHOV") ~ "endoSI")) %>%
+  select(c(sp_code:common_name, group)) %>%
+  left_join(persistence) %>% 
+  filter(!site %in% c("AHND", "SCDI", "SCTW"))
+
+unique(filter(temp, survey == "noncore")$sp_code)
+unique(filter(temp, survey == "core")$sp_code)
+
+# find and filter out species that were never observed
+
+noobs <- dat %>% group_by(sp_code) %>% 
+  summarize(total = sum(wm_gm2)) %>% 
+  filter(total == 0)
+ 
+noobs.v <- as.vector(noobs$sp_code)
+
+dat2 <- dat %>% 
+  filter(!sp_code %in% noobs.v)
 
 # There are 17 sites in the final dataset sampled in 2018!!!!
 
-write.csv(dat, "data/intermediary/species_withpersistence-pixelscale.csv", row.names = F)
+write.csv(dat2, "data/intermediary/species_withpersistence-pixelscale.csv", row.names = F)
 
 write.csv(wide, "data/intermediary/kelpcanopytimeseries_wide.csv", row.names = F)
 

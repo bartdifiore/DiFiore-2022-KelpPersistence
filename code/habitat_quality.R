@@ -11,7 +11,7 @@
 library(tidyverse)
 
 urc <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>% 
-  filter(coarse_grouping == "MOBILE INVERT", common_name %in% c("Purple Urchin", "Red Urchin")) %>%
+  filter(group == "mobile_invert", common_name %in% c("Purple Urchin", "Red Urchin")) %>%
   group_by(site, transect) %>%
   summarize(total_urc_biomass = sum(dry_gm2, na.rm = T))
 
@@ -26,11 +26,12 @@ sand <- read.csv("data/intermediary/combined_substrate.csv") %>%
   dplyr::select(-rocknot)
 
 df <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>% 
-  filter(coarse_grouping %in% c("GIANT KELP", "UNDERSTORY ALGAE")) %>%
+  filter(group %in% c("kelp", "ua")) %>%
   group_by(site, transect) %>%
   summarize(total_macro_biomass = sum(dry_gm2, na.rm = T)) %>% #Estimate total biomass of macroalgae
   left_join(urc) %>%
   left_join(sand) %>%
+  filter(!site %in% c("AHND", "SCDI", "SCTW")) %>%
   mutate(id = paste(site, transect, sep = "_"))
 
 # What could total_macro_biomass be given observed urchin biomass and the % cover of sand
@@ -39,8 +40,9 @@ df <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>%
 mod1 <- glm(total_macro_biomass ~ total_urc_biomass + sand_cover, df, family = Gamma(link = "log"))
 summary(mod1)
 
+
 p1 <- ggeffects::ggpredict(mod1)  
-plot(p1)
+plot(p1, add.data = T)
 
 
   
