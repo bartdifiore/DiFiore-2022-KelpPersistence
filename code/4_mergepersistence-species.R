@@ -131,6 +131,7 @@ psych::pairs.panels(persistence %>% select(mean.canopy, cv.canopy, perturbations
 
 psych::pairs.panels(persistence %>% select(mean.canopy, cv.canopy, d, pv), ellipses = F)
 
+write.csv(persistence, "data/intermediary/persistence_metrics.csv", row.names = F)
 
 ###########################################################################
 ## Merge with community data by patch 
@@ -167,10 +168,10 @@ notinlt <- setdiff(sp.bart, sp.lt)
 
 
 dat <- bind_rows(df, lt) %>%
-  select(site:sp_code, wm_gm2, survey) %>%
+  select(site:sp_code, dry_gm2, survey) %>%
   complete(sp_code, 
            nesting(site, transect, survey), 
-           fill = list(wm_gm2 = 0)) %>%
+           fill = list(dry_gm2 = 0)) %>%
   left_join(sp.meta) %>% 
   mutate(group = case_when(coarse_grouping == "SESSILE INVERT" & !sp_code %in% c("PACA", "CHOV") ~ "epiSI", 
                            coarse_grouping == "GIANT KELP" ~ "kelp",
@@ -188,7 +189,7 @@ unique(filter(temp, survey == "core")$sp_code)
 # find and filter out species that were never observed
 
 noobs <- dat %>% group_by(sp_code) %>% 
-  summarize(total = sum(wm_gm2)) %>% 
+  summarize(total = sum(dry_gm2)) %>% 
   filter(total == 0)
  
 noobs.v <- as.vector(noobs$sp_code)

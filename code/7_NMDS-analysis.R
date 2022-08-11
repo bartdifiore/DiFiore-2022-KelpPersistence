@@ -9,8 +9,8 @@ env <- df %>%
 wide <- df %>% 
   filter(sp_code != "MAPY") %>% #filter out kelp
   filter(group %in% c("epiSI", "ua")) %>%
-  select(id, site, transect, sp_code, survey,  wm_gm2) %>%
-  pivot_wider(names_from = sp_code, values_from = wm_gm2) %>% 
+  select(id, site, transect, sp_code, survey,  dry_gm2) %>%
+  pivot_wider(names_from = sp_code, values_from = dry_gm2) %>% 
   column_to_rownames("id")
 
 mat <- as.matrix(wide[, -c(1:3)])

@@ -1,0 +1,12 @@
+# 05-31-2022
+  Met w/ Raine. Discussed how to best compare the model predictions to the observations. The idea that we had was to not focus on observed vs. predicted, but rather to focus on the question at hand: use the model to interrogate the effect of historical kelp variability on kelp community structure. Basically the idea is to use the model in the conceptual figure. Then use the model to explore the predictor variables. Specifically, regress the model predictions against the metrics of kelp variability. Then we will have estimates for when and where we might expect to see a statistical difference in community structure. 
+  
+
+# 07/06/2022
+  Met w/ Raine. Discussed her figures that she generated on time since disturbance. Decided to pursue that as a path forward. Raine w/ generate a similar figure for frequency of disturbance. 
+  
+  Outline of figures: 
+    1. Conceptual: map + path diagram? + two simulated model runs from sites at opposite ends of the spectrum
+    2. Theoretical synthesis of the effects of time since disturbance and disturbance frequency w/ scouring on SI and UA biomass
+    3. Statistical figure (see 4panel_bayesresult.png)
+    4. ? maybe species level figure ? 

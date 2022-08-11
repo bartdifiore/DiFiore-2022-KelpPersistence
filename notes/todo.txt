@@ -6,4 +6,4 @@ To Do:
 
 - Draft up NMDS to send to An for refining. Are transects with similar histories more similar? or are transects more similar to other transects at the same site? 
 
-- Compare observations to Raine's model predictions.
+- Figure out what to do with Raine's model predictions. Her predictions are for percent cover. Mine our biomass. I can't seem to get them on any comparible scale so that I can compare the observations to the predictions. I tried relativizing the observations to the max kelp but that didn't seem to help. One option would be to use the percent cover data for the observations to compare with the models. But then it doesn't really make sense to analyze biomass in the rest of the paper.

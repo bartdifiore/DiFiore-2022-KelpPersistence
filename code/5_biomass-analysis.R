@@ -8,7 +8,7 @@ df <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv")
 df %>% 
   filter(group %in% c("epiSI", "ua", "kelp")) %>%
   group_by(site, transect, group, pv, d, perturbations) %>%
-  summarize(biomass = sum(wm_gm2, na.rm = T)) %>%
+  summarize(biomass = sum(dry_gm2, na.rm = T)) %>%
   ggplot(aes(y = biomass, x = perturbations))+
   geom_jitter(shape = 1)+
   geom_smooth(method = "lm")+
@@ -20,7 +20,7 @@ df %>%
 df %>% 
   filter(group %in% c("epiSI", "ua", "kelp")) %>%
   group_by(site, transect, group, pv, d, perturbations) %>%
-  summarize(biomass = sum(wm_gm2, na.rm = T)) %>%
+  summarize(biomass = sum(dry_gm2, na.rm = T)) %>%
   ggplot(aes(y = biomass, x = pv))+
   geom_jitter(shape = 1)+
   geom_smooth(method = "lm")+
@@ -32,7 +32,7 @@ df %>%
 df %>% 
   filter(group %in% c("epiSI", "ua", "kelp")) %>%
   group_by(site, transect, group, pv, d, perturbations) %>%
-  summarize(biomass = sum(wm_gm2, na.rm = T)) %>%
+  summarize(biomass = sum(dry_gm2, na.rm = T)) %>%
   ggplot(aes(y = biomass, x = d))+
   geom_jitter(shape = 1)+
   geom_smooth(method = "lm")+
@@ -46,7 +46,7 @@ df %>%
 urc <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>% 
   filter(group == "mobile_invert", common_name %in% c("Purple Urchin", "Red Urchin")) %>%
   group_by(site, transect) %>%
-  summarize(total_urc_biomass = sum(wm_gm2, na.rm = T))
+  summarize(total_urc_biomass = sum(dry_gm2, na.rm = T))
 
 sand <- read.csv("data/intermediary/combined_substrate.csv") %>%
   rename_all(tolower) %>%
@@ -60,13 +60,13 @@ sand <- read.csv("data/intermediary/combined_substrate.csv") %>%
 
 kelp <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>%
   filter(group %in% c("kelp")) %>%
-  mutate(current_kelpbiomass = wm_gm2) %>%
+  mutate(current_kelpbiomass = dry_gm2) %>%
   select(site, transect, current_kelpbiomass)
 
 df <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>% 
   filter(group %in% c("ua", "epiSI")) %>%
   group_by(site, transect, group, perturbations, timesincelastextinct, extinctions, d, pv, median.canopy, mean.canopy_previousyear) %>%
-  summarize(biomass = sum(wm_gm2, na.rm = T)) %>% #Estimate total biomass of macroalgae
+  summarize(biomass = sum(dry_gm2, na.rm = T)) %>% #Estimate total biomass of macroalgae
   left_join(urc) %>%
   left_join(sand) %>%
   left_join(kelp) %>%
@@ -115,7 +115,7 @@ print(summary(mod2), digits = 3)
 # 
 # 2. Sessile invert biomass is highly dependent on the number of perturbations (declines as disturbance increases) and sand cover. However, sessile invert biomass is not dependent on the time since the last disturbance, likely due to slower life history strategies relative to UA's.
 
-library(tidybayes)
+
 
 
 p1 <- mod1 %>%
@@ -183,7 +183,7 @@ mod1 <- rstanarm::stan_glmer(biomass ~ scale(d) + scale(sand_cover) + scale(tota
 print(summary(mod1), digits = 3)
 
 
-mod2 <- rstanarm::stan_glmer(biomass ~ scale(d) + scale(sand_cover) + scale(total_urc_biomass) + scale(current_kelpbiomass) + scale(timesincelastextinct) + (1|site), df[df$group == "ua", ], family = Gamma(link = "log"))
+mod2 <- rstanarm::stan_glmer(biomass ~ scale(perturbations)*scale(timesincelastextinct) + scale(sand_cover) + scale(total_urc_biomass) + scale(current_kelpbiomass) + (1|site), df[df$group == "ua", ], family = Gamma(link = "log"))
 
 
 print(summary(mod2), digits = 3)
