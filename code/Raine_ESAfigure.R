@@ -1,4 +1,5 @@
 source("code/theme.R")
+source("code/5_biomass-analysis.R")
 
 sim <- read.csv("data/intermediary/stochastic_sims.csv")
 
@@ -67,15 +68,47 @@ ggsave("figures/Raine_ESA.png", device = "png")
 
 
 
+#-----------------------------------------
+## Updated based on Raine's suggestions
+#-----------------------------------------
 
 
+sim <- read.csv("data/intermediary/stochastic_sims2.csv")
 
+forplotsim <- 
 
+p3 <- sim %>% 
+  select(-inverts) %>%
+  mutate(n_dist.f = as.factor(n_dist)) %>%
+  ggplot(aes(x = t_since, y = algae))+
+  geom_point(aes(shape = n_dist.f), color = "chocolate1", size = 3.5, show.legend = F, stroke = 2)+
+  scale_shape_manual(values = 1:7)+
+  coord_cartesian(ylim = c(0,1))+
+  labs(x = "Time since disturbance", y = "Relative understory\nalgae abundance", shape = "Num. dist")+
+  theme_bd()
 
+forplot <- df %>% 
+  filter(group == "ua") %>% 
+  drop_na(perturbations) %>%
+  mutate(perturbations.f = factor(perturbations, levels = c("1", "2", "3", "4", "5", "6", "7", "8")))
 
+p4 <- df %>%
+  filter(group == "ua") %>%
+  filter(!site %in% c("AHND", "SCDI", "SCTW")) %>%
+  filter(id != "STEP_1") %>%
+  modelr::data_grid(timesincelastextinct = modelr::seq_range(timesincelastextinct, n = 100), .model = mod2) %>%
+  add_predicted_draws(mod2, re_formula = NA) %>%
+  ggplot(aes(x = timesincelastextinct, y = biomass)) +
+  stat_lineribbon(aes(y = .prediction), .width = c( 0.95), fill = "gray90", color = "black") +
+  geom_point(data = forplot, aes(x = timesincelastextinct, y = biomass, shape = perturbations.f), color = "chocolate1", alpha = 0.5, size = 3.5, stroke = 2)+
+  scale_shape_manual(values = c(1, 2, 3, 4, 5, 6, 7, 8))+
+  labs(x = "Time since last kelp canopy extinction", y = "Understory algae biomass", shape = "Num. disturbances")+
+  theme_bd()+
+  theme(legend.position = c(0.5, 0.8), legend.direction = "horizontal")+
+  guides(shape = guide_legend(title.position = "top"))
 
+cowplot::plot_grid(p3,p4, nrow = 1, align = "h", labels = "AUTO")
 
-
-
+ggsave("figures/Raine_ESA.png", device = "png", width = 9, height = 5)
 
 

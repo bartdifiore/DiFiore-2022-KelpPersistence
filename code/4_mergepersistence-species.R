@@ -117,19 +117,59 @@ sum$timesincelastextinct <- timesincelast
 sum$perturbations <- bd.apply(wide[,-1], perturbations, row.ids = wide$year.quarter)
 
 
+
+##############################################################################
+## Proportional metrics
+##############################################################################
+
+percover <- read.csv("data/spatial/csvs/percover_timeseries-bysite.csv") %>%
+  pivot_longer(cols = c(Y_2008_1:Y_2018_4), names_to = "time", values_to = "percent_cover") %>%
+  group_by(id, site, transect, time) %>%
+  summarize(num_pixels = n(), 
+            percent_cover = sum(percent_cover, na.rm = T)/(num_pixels*900)) %>%
+  separate(time, into = c("junk", "year", "quarter"), sep = "_") %>%
+  select(-junk) %>%
+  mutate(year.quarter = as.numeric(paste(year, quarter, sep = ".")))
+
+
+ggplot(percover, aes(x = year.quarter, y = percent_cover))+
+  geom_line(aes(color = as.character(transect)))+
+  facet_wrap(~site)
+
+
+# Proportion of time percent cover was zero
+
+zero_percover <- percover %>%
+  filter(percent_cover == 0) %>%
+  summarize(prop_zero = n()/40)
+
+
+
+# Proporiton of time kelp was > 80% areal coverage
+
+fifty_percover <- percover %>%
+  filter(percent_cover >= .5) %>%
+  summarize(prop_50 = n()/40)
+
+
+
 ##############################################################################
 ## Merge into single data file
 ##############################################################################
 
 persistence <- sum %>% 
   separate(id, into = c("site", "transect"), sep = "(?<=[A-Za-z])(?=[0-9])") %>%
-  mutate(transect = as.numeric(transect))
+  mutate(transect = as.numeric(transect)) %>%
+  left_join(zero_percover) %>%
+  left_join(fifty_percover)
 
 psych::pairs.panels(persistence %>% select(-id), ellipses = F)
 
 psych::pairs.panels(persistence %>% select(mean.canopy, cv.canopy, perturbations, timesincelastextinct, extinctions), ellipses = F)
 
 psych::pairs.panels(persistence %>% select(mean.canopy, cv.canopy, d, pv), ellipses = F)
+
+psych::pairs.panels(persistence %>% select(perturbations, timesincelastextinct, extinctions, prop_zero, prop_50))
 
 write.csv(persistence, "data/intermediary/persistence_metrics.csv", row.names = F)
 

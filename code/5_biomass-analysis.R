@@ -1,5 +1,5 @@
 source("code/1_setup.R")
-
+source("code/theme.R")
 
 df <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv")
 
@@ -65,7 +65,7 @@ kelp <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>%
 
 df <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>% 
   filter(group %in% c("ua", "epiSI")) %>%
-  group_by(site, transect, group, perturbations, timesincelastextinct, extinctions, d, pv, median.canopy, mean.canopy_previousyear) %>%
+  group_by(site, transect, group, perturbations, timesincelastextinct, extinctions, d, pv, median.canopy, mean.canopy_previousyear, prop_zero, prop_50) %>%
   summarize(biomass = sum(dry_gm2, na.rm = T)) %>% #Estimate total biomass of macroalgae
   left_join(urc) %>%
   left_join(sand) %>%
@@ -92,9 +92,10 @@ df %>%
   facet_wrap(~site)
 
 
-mod1 <- rstanarm::stan_glmer(biomass ~ scale(perturbations) + scale(sand_cover) + scale(total_urc_biomass) + scale(current_kelpbiomass) + scale(timesincelastextinct) + (1|site), df[df$group == "epiSI", ], family = Gamma(link = "log"))
+mod1 <- rstanarm::stan_glmer(biomass ~ scale(perturbations) + scale(sand_cover) + scale(total_urc_biomass) + scale(current_kelpbiomass) + scale(timesincelastextinct) + scale(prop_zero) + (1|site), df[df$group == "epiSI", ], family = Gamma(link = "log"))
 
 
+rstanarm::prior_summary(mod1)
 print(summary(mod1), digits = 3)
 
 coef(summary(mod1))
@@ -103,7 +104,7 @@ plot(ggeffects::ggpredict(mod1), add.data = T)
 temp <- rstantools::posterior_predict(mod1, re.form = NA)
 
 
-mod2 <- rstanarm::stan_glmer(biomass ~ scale(perturbations) + scale(sand_cover) + scale(total_urc_biomass) + scale(current_kelpbiomass) + scale(timesincelastextinct) + (1|site), df[df$group == "ua", ], family = Gamma(link = "log"))
+mod2 <- rstanarm::stan_glmer(biomass ~ scale(perturbations) + scale(sand_cover) + scale(total_urc_biomass) + scale(current_kelpbiomass) + scale(timesincelastextinct) + scale(prop_zero) + (1|site), df[df$group == "ua", ], family = Gamma(link = "log"))
 
 
 print(summary(mod2), digits = 3)
@@ -119,23 +120,23 @@ print(summary(mod2), digits = 3)
 
 
 p1 <- mod1 %>%
-  gather_draws(`scale(perturbations)`,`scale(sand_cover)`, `scale(total_urc_biomass)`, `scale(current_kelpbiomass)`, `scale(timesincelastextinct)`) %>%
+  gather_draws(`scale(perturbations)`,`scale(sand_cover)`, `scale(total_urc_biomass)`, `scale(current_kelpbiomass)`, `scale(timesincelastextinct)`, `scale(prop_zero)`) %>%
   median_qi(.width = c(0.75, 0.95)) %>%
   ggplot(aes(y = .variable, x = .value, xmin = .lower, xmax = .upper))+
   geom_pointinterval()+
   geom_vline(xintercept = 0, lty = 4)+
-  scale_y_discrete(labels = rev(c("Urchin biomass", "Time since\nlast extinction", "Sand cover", "Perturbations", "Current kelp biomass")))+
+  scale_y_discrete(labels = rev(c("Urchin biomass", "Time since\nlast extinction", "Sand cover", "Prop. zero", "Perturbations", "Current kelp biomass")))+
   labs(x = "Effect on sessile invertebrate biomass", y = "")+
   theme_classic()
 
 
 p2 <- mod2 %>%
-  gather_draws(`scale(perturbations)`,`scale(sand_cover)`, `scale(total_urc_biomass)`, `scale(current_kelpbiomass)`, `scale(timesincelastextinct)`) %>%
+  gather_draws(`scale(perturbations)`,`scale(sand_cover)`, `scale(total_urc_biomass)`, `scale(current_kelpbiomass)`, `scale(timesincelastextinct)`, `scale(prop_zero)`) %>%
   median_qi(.width = c(0.75, 0.95)) %>%
   ggplot(aes(y = .variable, x = .value, xmin = .lower, xmax = .upper))+
   geom_pointinterval()+
   geom_vline(xintercept = 0, lty = 4)+
-  scale_y_discrete(labels = rev(c("Urchin biomass", "Time since\nlast extinction", "Sand cover", "Perturbations", "Current kelp biomass")))+
+  scale_y_discrete(labels = rev(c("Urchin biomass", "Time since\nlast extinction", "Sand cover", "Prop. zero", "Perturbations", "Current kelp biomass")))+
   labs(x = "Effect on understory macroalgae biomass", y = "")+
   theme_classic()
 
@@ -170,6 +171,34 @@ fourpanel <- cowplot::plot_grid(p1, p3, p2, p4)
 fourpanel
 
 ggsave("figures/4panel_bayesresults.png", fourpanel, width = 12, height = 8)
+
+
+#--------------------------
+## One panel version
+#--------------------------
+
+si <- mod1 %>%
+  gather_draws(`scale(perturbations)`,`scale(sand_cover)`, `scale(total_urc_biomass)`, `scale(current_kelpbiomass)`, `scale(timesincelastextinct)`, `scale(prop_zero)`) %>%
+  median_qi(.width = c(0.75, 0.95)) %>%
+  mutate(group = "Sessile\ninvertebrates")
+
+ua <- mod2 %>%
+  gather_draws(`scale(perturbations)`,`scale(sand_cover)`, `scale(total_urc_biomass)`, `scale(current_kelpbiomass)`, `scale(timesincelastextinct)`, `scale(prop_zero)`) %>%
+  median_qi(.width = c(0.75, 0.95)) %>%
+  mutate(group = "Understory\nalgae")
+
+
+ua %>% 
+  bind_rows(si) %>%
+  ggplot(aes(y = .variable, x = .value, xmin = .lower, xmax = .upper))+
+  geom_pointinterval(aes(color = group), position = position_dodge(width = 0.5))+
+  geom_vline(xintercept = 0, lty = 4)+
+  scale_y_discrete(labels = rev(c("Urchin biomass", "Time since\nlast extinction", "Sand cover", "Proportion time\nno kelp", "Perturbations", "Current kelp\nbiomass")))+
+  labs(x = "Effect on biomass", y = "", color = "")+
+  theme_bd()+
+  theme(legend.position = c(0.8,0.9))
+
+ggsave("figures/coef_plot.png", width = 7, height = 6)
 
 
 

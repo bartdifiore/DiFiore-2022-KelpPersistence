@@ -10,3 +10,24 @@
     2. Theoretical synthesis of the effects of time since disturbance and disturbance frequency w/ scouring on SI and UA biomass
     3. Statistical figure (see 4panel_bayesresult.png)
     4. ? maybe species level figure ? 
+
+
+
+# 11-22-2022
+
+  - Decided to focus on this manuscript for Ch. 3
+  - Met w/ Raine
+  - Revise conceptual figure
+    - generate two panels from the model results
+    - generate two more panels with bar/dot plots with the predicted values from 2018 vs. the observed
+  - Pair the "pertrubations" w/ the time series such that I can tell when the perturbations occured
+  - Revise coef plot (Fig. 2) 
+  - Reconstruct (Fig. 3)
+    - pair model predictions with observations
+    - two 3 panel plots
+  - Conduct species level analysis
+    - pull out top 10 UA and SI by biomass 
+    - run statistical models on each (biomass ~ time_since + perturbations + covariates)
+    - generate some sort of summary plot (horizontal bar plot, species on the y, response to time_since | perturbations on the X) 
+    - Bullet out methods and results
+    - Send to committee and then send to Adrian, Holly, Dan, Bob, Max, and Raine
