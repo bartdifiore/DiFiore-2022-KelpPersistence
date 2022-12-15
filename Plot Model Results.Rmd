@@ -1,0 +1,180 @@
+---
+title: "Plot Model Results"
+author: "Raine Detmer"
+date: "11/30/2022"
+output: html_document
+---
+
+# main figures
+
+## import the data
+
+Simulations: ran the model with all combinations of time since last disturbance (from 0-10 years) and total number of disturbances (from 1-8) and recorded the adundance of understory algae (here just referred to as algae), inverts, and kelp at the end of the simulation. 
+
+Note that in these simulations, the perturbations removed all kelp and also disturbed the benthos (90% of benthic organsims were removed; algae and inverts were equally disturbed). 
+
+Also note that for simplicity, disturbances were assumed to occur at a frequency of once per year (e.g., in a 10 year simulation with 3 disturbances where the last disturbance occurred in year 10 of the simulation, the other two disturbances occurred in years 8 and 9, and no disturbances occurred in years 1-7)
+
+```{r}
+
+main_sims <- read.csv("data/Large_files/Raine_modeloutput/MainSims.csv")
+
+# t_since = years since last disturbance, n_dist = total number of disturbances in simulation, inverts = invert abundance (fractional cover) at end of simulation, algae = algal abundance (fraction cover) at end of simulation, kelp = kelp abundance (fraction of carrying capacity) at end of simulation
+
+```
+
+## plot
+
+```{r}
+# number of disturbances vs final algal abundance (with different points for the different numbers of disturbances)
+plot(x = main_sims$n_dist, y = main_sims$algae, col = adjustcolor("chocolate1", alpha.f = 0.5), pch = 16, ylim = c(0, 1), xlab = "Number of disturbances", ylab = "Algal abundance")
+
+# number of disturbances vs final invert abundance
+plot(x = main_sims$n_dist, y = main_sims$inverts, col = adjustcolor("royalblue1", alpha.f = 0.5), pch = 16, ylim = c(0,1), xlab = "Number of disturbances", ylab = "Invert abundance")
+
+# time since last disturbance vs final algal abundance (with different points for the different values of time since last disturbance)
+plot(x = main_sims$t_since, y = main_sims$algae, col = adjustcolor("chocolate1", alpha.f = 0.5), pch = 16, ylim = c(0, 1), xlab = "Time since last disturbance (years)", ylab = "Algal abundance")
+
+# time since last disturbance vs final invert abundance
+plot(x = main_sims$t_since, y = main_sims$inverts, col = adjustcolor("royalblue1", alpha.f = 0.5), pch = 16, ylim = c(0,1), xlab = "Time since last disturbance (years)", ylab = "Invert abundance")
+
+
+
+```
+
+
+# supplementary figures
+
+Look at the sensitivity of the effects of time since last disturbance and total number of disturbances to invert life history parameters (growth rate, rate of external propagule input, and competitive ability)
+
+## import the data
+
+```{r}
+invertgrowth <- read.csv("data/Large_files/Raine_modeloutput/invertGrowthSims.csv")# t_since = years since last disturbance, n_dist = total number of disturbances in simulation, inverts = invert abundance (fractional cover) at end of simulation, algae = algal abundance (fraction cover) at end of simulation, invert_growth = column indicating the value used for the invert growth rate (default, 0.75 x default, and 0.5 x default)
+
+invertsupply <- read.csv("data/Large_files/Raine_modeloutput/invertExtInputSims.csv")# columns same as for invertgrowth, except last column is now invert_ext and indicates the value used for the invert external supply rate (default, 0.5x default, and 0.1x default). Note invert growth rate is at its default value
+
+invertktraits <- read.csv("data/Large_files/Raine_modeloutput/invertkPars.csv")# columns are the same as for invertgrowth and invertsupply except last column is now invert_k and indicates whether the invert life history parameters were at their default values or changed to make inverts more k-selected (invert_k = kpars means growth rate = 0.75x default, external supply = 0.1 x default, and competition coefficients flipped so inverts are now stronger competitors than algae)
+
+
+```
+
+
+## plot
+
+### effect of invert growth rate
+```{r}
+# number of disturbance vs algal abundance, last disturbance happened one year ago
+plot(x = invertgrowth$n_dist[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="default")], y = invertgrowth$algae[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="default")], type = "o", ylim = c(0, 1), col = "chocolate1", xlab = "Number of disturbances", ylab = "Algal abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertgrowth$n_dist[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.75xdefault")], y = invertgrowth$algae[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.75xdefault")], type = "o", lty = 2, col= "chocolate1", pch = 16)
+lines(x = invertgrowth$n_dist[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.5xdefault")], y = invertgrowth$algae[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.5xdefault")], type = "o", lty = 3, col= "chocolate1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.75xdefault", "0.5xdefault"), lty = c(1, 2, 3), title = "Invert growth rate")
+
+                        
+# number of disturbance vs invert abundance, last disturbance happened one year ago
+plot(x = invertgrowth$n_dist[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="default")], y = invertgrowth$inverts[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="default")], type = "o", ylim = c(0, 1), col = "royalblue1", xlab = "Number of disturbances", ylab = "Invert abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertgrowth$n_dist[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.75xdefault")], y = invertgrowth$inverts[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.75xdefault")], type = "o", lty = 2, col= "royalblue1", pch = 16)
+lines(x = invertgrowth$n_dist[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.5xdefault")], y = invertgrowth$inverts[which(invertgrowth$t_since==1 & invertgrowth$invert_growth=="0.5xdefault")], type = "o", lty = 3, col= "royalblue1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.75xdefault", "0.5xdefault"), lty = c(1, 2, 3), title = "Invert growth rate")
+
+
+# time since last disturbance vs algal abundance, only one disturbance happened
+plot(x = invertgrowth$t_since[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="default")], y = invertgrowth$algae[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="default")], type = "o", ylim = c(0, 1), col = "chocolate1", xlab = "Time since last disturbance (years)", ylab = "Algal abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertgrowth$t_since[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.75xdefault")], y = invertgrowth$algae[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.75xdefault")], type = "o", lty = 2, col= "chocolate1", pch = 16)
+lines(x = invertgrowth$t_since[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.5xdefault")], y = invertgrowth$algae[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.5xdefault")], type = "o", lty = 3, col= "chocolate1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.75xdefault", "0.5xdefault"), lty = c(1, 2, 3), title = "Invert growth rate")
+
+# time since last disturbance vs invert abundance, only one disturbance happened
+plot(x = invertgrowth$t_since[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="default")], y = invertgrowth$inverts[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="default")], type = "o", ylim = c(0, 1), col = "royalblue1", xlab = "Time since last disturbance (years)", ylab = "Invert abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertgrowth$t_since[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.75xdefault")], y = invertgrowth$inverts[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.75xdefault")], type = "o", lty = 2, col= "royalblue1", pch = 16)
+lines(x = invertgrowth$t_since[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.5xdefault")], y = invertgrowth$inverts[which(invertgrowth$n_dist==1 & invertgrowth$invert_growth=="0.5xdefault")], type = "o", lty = 3, col= "royalblue1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.75xdefault", "0.5xdefault"), lty = c(1, 2, 3), title = "Invert growth rate")
+
+
+```
+
+
+### effect of invert external supply
+
+```{r}
+# number of disturbance vs algal abundance, disturbance happened one year ago
+plot(x = invertsupply$n_dist[which(invertsupply$t_since==1 & invertsupply$invert_ext=="default")], y = invertsupply$algae[which(invertsupply$t_since==1 & invertsupply$invert_ext=="default")], type = "o", ylim = c(0, 1), col = "chocolate1", xlab = "Number of disturbances", ylab = "Algal abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertsupply$n_dist[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.5xdefault")], y = invertsupply$algae[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.5xdefault")], type = "o", lty = 2, col= "chocolate1", pch = 16)
+lines(x = invertsupply$n_dist[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.1xdefault")], y = invertsupply$algae[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.1xdefault")], type = "o", lty = 3, col= "chocolate1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.5xdefault", "0.1xdefault"), lty = c(1, 2, 3), title = "Invert external input")
+
+                        
+# number of disturbance vs invert abundance, disturbance happened one year ago
+plot(x = invertsupply$n_dist[which(invertsupply$t_since==1 & invertsupply$invert_ext=="default")], y = invertsupply$inverts[which(invertsupply$t_since==1 & invertsupply$invert_ext=="default")], type = "o", ylim = c(0, 1), col = "royalblue1", xlab = "Number of disturbances", ylab = "Invert abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertsupply$n_dist[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.5xdefault")], y = invertsupply$inverts[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.5xdefault")], type = "o", lty = 2, col= "royalblue1", pch = 16)
+lines(x = invertsupply$n_dist[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.1xdefault")], y = invertsupply$inverts[which(invertsupply$t_since==1 & invertsupply$invert_ext=="0.1xdefault")], type = "o", lty = 3, col= "royalblue1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.5xdefault", "0.1xdefault"), lty = c(1, 2, 3), title = "Invert external input")
+
+
+# time since last disturbance vs algal abundance, one disturbance
+plot(x = invertsupply$t_since[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="default")], y = invertsupply$algae[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="default")], type = "o", ylim = c(0, 1), col = "chocolate1", xlab = "Time since last disturbance (years)", ylab = "Algal abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertsupply$t_since[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.5xdefault")], y = invertsupply$algae[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.5xdefault")], type = "o", lty = 2, col= "chocolate1", pch = 16)
+lines(x = invertsupply$t_since[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.1xdefault")], y = invertsupply$algae[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.1xdefault")], type = "o", lty = 3, col= "chocolate1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.5xdefault", "0.1xdefault"), lty = c(1, 2, 3), title = "Invert external input")
+
+# time since last disturbance vs invert abundance, one disturbance
+plot(x = invertsupply$t_since[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="default")], y = invertsupply$inverts[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="default")], type = "o", ylim = c(0, 1), col = "royalblue1", xlab = "Time since last disturbance (years)", ylab = "Invert abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertsupply$t_since[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.5xdefault")], y = invertsupply$inverts[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.5xdefault")], type = "o", lty = 2, col= "royalblue1", pch = 16)
+lines(x = invertsupply$t_since[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.1xdefault")], y = invertsupply$inverts[which(invertsupply$n_dist==1 & invertsupply$invert_ext=="0.1xdefault")], type = "o", lty = 3, col= "royalblue1", pch = 16)
+legend(x = "topleft", legend = c("default", "0.5xdefault", "0.1xdefault"), lty = c(1, 2, 3), title = "Invert external input")
+
+
+```
+
+### default vs more k-selected inverts
+
+(more k-selected = invert growth rate = 0.75 x default, invert external supply rate = 0.1 x default, and invert and algal comeptition coefficients are flipped. So compared to the default pars, inverts with the k selected pars are slower growing and stronger competitors)
+
+```{r}
+# number of disturbance vs algal abundance, disturbance happened one year ago
+plot(x = invertktraits$n_dist[which(invertktraits$t_since==1 & invertktraits$invert_k=="default")], y = invertktraits$algae[which(invertktraits$t_since==1 & invertktraits$invert_k=="default")], type = "o", ylim = c(0, 1), col = "chocolate1", xlab = "Number of disturbances", ylab = "Algal abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertktraits$n_dist[which(invertktraits$t_since==1 & invertktraits$invert_k=="kpars")], y = invertktraits$algae[which(invertktraits$t_since==1 & invertktraits$invert_k=="kpars")], type = "o", lty = 2, col= "chocolate1", pch = 16)
+legend(x = "topleft", legend = c("default", "k-selected"), lty = c(1, 2), title = "Invert life history")
+
+                        
+# number of disturbance vs invert abundance, disturbance happened one year ago
+plot(x = invertktraits$n_dist[which(invertktraits$t_since==1 & invertktraits$invert_k=="default")], y = invertktraits$inverts[which(invertktraits$t_since==1 & invertktraits$invert_k=="default")], type = "o", ylim = c(0, 1), col = "royalblue1", xlab = "Number of disturbances", ylab = "Invert abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertktraits$n_dist[which(invertktraits$t_since==1 & invertktraits$invert_k=="kpars")], y = invertktraits$inverts[which(invertktraits$t_since==1 & invertktraits$invert_k=="kpars")], type = "o", lty = 2, col= "royalblue1", pch = 16)
+legend(x = "topleft", legend = c("default", "k-selected"), lty = c(1, 2), title = "Invert life history")
+
+
+
+# time since last disturbance vs algal abundance, only one disturbance happened
+plot(x = invertktraits$t_since[which(invertktraits$n_dist==1 & invertktraits$invert_k=="default")], y = invertktraits$algae[which(invertktraits$n_dist==1 & invertktraits$invert_k=="default")], type = "o", ylim = c(0, 1), col = "chocolate1", xlab = "Time since last disturbance (years)", ylab = "Algal abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertktraits$t_since[which(invertktraits$n_dist==1 & invertktraits$invert_k=="kpars")], y = invertktraits$algae[which(invertktraits$n_dist==1 & invertktraits$invert_k=="kpars")], type = "o", lty = 2, col= "chocolate1", pch = 16)
+legend(x = "topleft", legend = c("default", "k-selected"), lty = c(1, 2), title = "Invert life history")
+
+# time since last disturbance vs invert abundance, only one disturbance happened
+plot(x = invertktraits$t_since[which(invertktraits$n_dist==1 & invertktraits$invert_k=="default")], y = invertktraits$inverts[which(invertktraits$n_dist==1 & invertktraits$invert_k=="default")], type = "o", ylim = c(0, 1), col = "royalblue1", xlab = "Time since last disturbance (years)", ylab = "Invert abundance", xaxt = "n", las = 1, pch = 16)
+axis(side = 1, at = c(1, 2, 3, 4), labels = c("1", "2", "3", "4"))
+lines(x = invertktraits$t_since[which(invertktraits$n_dist==1 & invertktraits$invert_k=="kpars")], y = invertktraits$inverts[which(invertktraits$n_dist==1 & invertktraits$invert_k=="kpars")], type = "o", lty = 2, col= "royalblue1", pch = 16)
+legend(x = "topleft", legend = c("default", "k-selected"), lty = c(1, 2), title = "Invert life history")
+
+
+
+```
+
+
+
+
+
+
+
+
+

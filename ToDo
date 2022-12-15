@@ -20,14 +20,21 @@
   - Revise conceptual figure
     - generate two panels from the model results
     - generate two more panels with bar/dot plots with the predicted values from 2018 vs. the observed
-  - Pair the "pertrubations" w/ the time series such that I can tell when the perturbations occured
-  - Revise coef plot (Fig. 2) 
+  - _______________________Pair the "pertrubations" w/ the time series such that I can tell when the perturbations occured
+  - ____________________________________________________________________________________________Revise coef plot (Fig. 2) 
   - Reconstruct (Fig. 3)
-    - pair model predictions with observations
-    - two 3 panel plots
+    - ____________________________________________________________________________pair model predictions with observations
+    - ___________________________________________________________________________________________________two 3 panel plots
   - Conduct species level analysis
     - pull out top 10 UA and SI by biomass 
     - run statistical models on each (biomass ~ time_since + perturbations + covariates)
     - generate some sort of summary plot (horizontal bar plot, species on the y, response to time_since | perturbations on the X) 
-    - Bullet out methods and results
+    - Bullet out 
+        - _________________________________________________________________________________________________________methods
+        - results
     - Send to committee and then send to Adrian, Holly, Dan, Bob, Max, and Raine
+    
+    
+# An meeting 12/9/22
+
+- Build a CCA plot in ggvegan. Color species by UA | SI. Good separation by species in NMDS. Maybe also in CCA? 

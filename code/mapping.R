@@ -32,17 +32,23 @@ depth.df <- marmap::fortify.bathy(depth)
 blues <- colorRampPalette(colors = c("#94AAC3", "#F9FAFB")) #Low #94AAC3, high #F9FAFB
 browns <- colorRampPalette(colors = c("#ACD0A5", "#C3A76B"))
 
-persistence <- read.csv("data/intermediary/persistence_metrics.csv") %>%
-  group_by(site) %>%
-  summarize(perturbations = mean(perturbations))
+# persistence <- read.csv("data/intermediary/persistence_metrics.csv") %>%
+#   group_by(site) %>%
+#   summarize(perturbations = mean(perturbations))
+# 
+# sites <- st_read("data/spatial/shapefiles/sampledsites.shp") %>%
+#   st_set_crs("+proj=utm +zone=10 +datum=WGS84 +units=m +no_defs ") %>% st_transform(4326) %>%
+#   group_by(site) %>%
+#   summarise(st_union(geometry)) %>%
+#   st_centroid() %>%
+#   left_join(persistence) %>%
+#   filter(site != "AHND")
 
-sites <- st_read("data/spatial/shapefiles/sampledsites.shp") %>%
+persistence <- read.csv("data/intermediary/persistence_metrics.csv")
+
+transects <- st_read("data/spatial/shapefiles/sampledsites.shp") %>%
   st_set_crs("+proj=utm +zone=10 +datum=WGS84 +units=m +no_defs ") %>% st_transform(4326) %>%
-  group_by(site) %>%
-  summarise(st_union(geometry)) %>%
-  st_centroid() %>%
-  left_join(persistence) %>%
-  filter(site != "AHND")
+  left_join(persistence) 
 
 ggplot()+
   geom_sf(data = sites, aes(color = site))
@@ -53,10 +59,11 @@ zoom_map <- ggplot()+
   scale_fill_gradientn(colours = blues(10))+
   geom_contour(data = filter(depth.df, z < 10), aes(x = x, y = y, z = z), color = "black", binwidth = 100, alpha = 0.25)+
   geom_sf(data = shore_small, fill = "#596778", lwd = 0.01)+
-  geom_sf(data = sites, aes(color = perturbations, size = perturbations), alpha = 0.75)+
+  #geom_sf(data = sites, aes(color = perturbations, size = perturbations), alpha = 0.75)+
+  geom_sf(data = transects, aes(color = perturbations, size = perturbations), alpha = 0.25)+
   scale_x_continuous(breaks = -1*c(120.5, 119.5))+
   scale_y_continuous(breaks = c(33.8, 34.2, 34.6))+
-  scale_color_gradient(low = "#fcc5c5", high = "#960f0f", limits = c(1, 7), breaks=seq(1, 7, by=1))+
+  scale_color_gradient(low = "#fcc5c5", high = "#960f0f")+
   scale_size_continuous(limits=c(1,7), breaks=seq(1, 7, by=1), range = c(1.5, 12))+
   labs(x = "", y = "", size = "", color = "")+
   coord_sf(xlim = c(-120.7, -119.25), ylim = c(34, 34.65), expand = F)+

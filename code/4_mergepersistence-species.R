@@ -1,5 +1,6 @@
 source("code/1_setup.R")
 source("code/2_dist_function.R")
+source("code/theme.R")
 
 
 ############################################################
@@ -96,26 +97,101 @@ hist(sum$d)
 ## Calculate number of extinction events and time since last extinction
 ##########################################################################
 
-sum$extinctions <- bd.apply(wide[,-1], extinctions, row.ids = wide$year.quarter)
+# Number of extinctions and time when the extinction started
+mat <- as.matrix(wide[,-1])
 
+temp <- matrix(nrow = dim(mat)[1], ncol = dim(mat)[2])
 
-timesincelast <- vector()
-
-
-for(i in 1:dim(wide.temp)[2]){
-  timesincelast[i] <- time.since(col = wide.temp[,i], time.vec = wide$year.quarter)
+for(k in 1:dim(mat)[2]){
+  for(i in 1:(dim(mat)[1]-2)){
+    temp[i,k] <- ifelse(mat[i,k] > 0
+                        & mat[i+1,k] == 0 
+                        & mat[i+2,k] == 0, 1, 0)
+  }
 }
 
-sum$timesincelastextinct <- timesincelast
+sum$extinctions <- apply(temp, MARGIN = 2, sum, na.rm = T)
+map_extinctions <- data.frame(temp)
+names(map_extinctions) <- names(wide[-1])
+map_extinctions$year.quarter <- wide$year.quarter
 
+# Time since kelp last went extinct
+
+##### This code will show the last extinction event (kelp present then absent) BUT the last period when kelp was gone (regardless of if it was present before) may be the more important
+time_since <- map_extinctions %>% 
+  pivot_longer(cols = ABUR1:WOOD3, names_to = "id", values_to = "extinction_event") %>%
+  group_by(id) %>%
+  filter(extinction_event == 1) %>% 
+  filter(year.quarter == max(year.quarter)) %>%
+  mutate(timesincelastextinct = 2018.75 - year.quarter) %>% 
+  select(id, timesincelastextinct)
+
+sum <- sum %>% 
+  left_join(time_since) %>%
+  mutate(timesincelastextinct = replace_na(timesincelastextinct, 10))
+
+# Time since kelp was zero for 6 months
+
+mat <- as.matrix(wide[,-1])
+
+temp <- matrix(nrow = dim(mat)[1], ncol = dim(mat)[2])
+
+for(k in 1:dim(mat)[2]){
+  for(i in 1:(dim(mat)[1]-1)){
+    temp[i+1,k] <- ifelse(mat[i,k] == 0
+                        & mat[i+1,k] == 0, 1, 0)
+  }
+}
+
+map_absent <- data.frame(temp)
+names(map_absent) <- names(wide[-1])
+map_absent$year.quarter <- wide$year.quarter
+timesince_absent <- map_absent %>%
+  pivot_longer(cols = c(ABUR1:WOOD3), names_to = "id", values_to = "absences") %>%
+  group_by(id) %>%
+  filter(absences == 1) %>% 
+  filter(year.quarter == max(year.quarter)) %>%
+  mutate(timesincelastabsent = 2018.75 - year.quarter) %>% 
+  select(id, timesincelastabsent)
+  
+sum <- sum %>% 
+  left_join(timesince_absent) %>%
+  mutate(timesincelastabsent = replace_na(timesincelastabsent, 10))
 
 ##############################################################################
-## All disturbance events regardless of season
+## All disturbance events
 ##############################################################################
 
 #number of times kelp has disappeared (< 80% reduction) for more than 2 quarters.
-sum$perturbations <- bd.apply(wide[,-1], perturbations, row.ids = wide$year.quarter)
 
+mat <- as.matrix(wide[,-1])
+
+temp <- matrix(nrow = dim(mat)[1], ncol = dim(mat)[2])
+
+threshold <- apply(mat, MARGIN = 2, FUN = function(x){max(x)*0.1})
+
+for(k in 1:dim(mat)[2]){
+  for(i in 1:(dim(mat)[1]-2)){
+    temp[i,k] <- ifelse(mat[i,k] >= threshold[k]
+                        & ((mat[i,k] - mat[i+1,k]) / mat[i,k]) >= 0.80 
+                        & ((mat[i,k] - mat[i+2,k]) / mat[i,k]) >= 0.80, 1, 0)
+  }
+}
+
+(1000 - 1100) / 1000
+
+for(k in 1:dim(mat)[2]){
+  for(i in 1:(dim(mat)[1]-1)){
+    temp[i,k] <- ifelse(temp[i,k] == 1
+                        & temp[i+1,k] == 1
+                        & is.na(temp[i+1,k]) == F, NA, temp[i,k] )
+  }
+} # This for loop corrects for two disturbances in a row. Basically, I only want the first one when the decline was initiated, not a subsequent one in the next quarter.
+
+sum$perturbations <- apply(temp, MARGIN = 2, sum, na.rm = T)
+map_perturbations <- data.frame(temp)
+names(map_perturbations) <- names(wide[-1])
+map_perturbations$year.quarter <- wide$year.quarter
 
 
 ##############################################################################
@@ -198,14 +274,6 @@ df <- read.csv("data/raw/BartsBenthic_All_Species_Biomass_at_transect_20220424.c
   rename_all(tolower)
 
 
-sp.bart <- unique(df$sp_code)
-
-sp.lt <- unique(lt$sp_code)
-
-
-notinbart <- setdiff(sp.lt, sp.bart) # need to zero fill each of these species for each transect
-notinlt <- setdiff(sp.bart, sp.lt)
-
 
 dat <- bind_rows(df, lt) %>%
   select(site:sp_code, dry_gm2, survey) %>%
@@ -223,19 +291,19 @@ dat <- bind_rows(df, lt) %>%
   left_join(persistence) %>% 
   filter(!site %in% c("AHND", "SCDI", "SCTW"))
 
-unique(filter(temp, survey == "noncore")$sp_code)
-unique(filter(temp, survey == "core")$sp_code)
 
 # find and filter out species that were never observed
 
 noobs <- dat %>% group_by(sp_code) %>% 
   summarize(total = sum(dry_gm2)) %>% 
   filter(total == 0)
- 
+
 noobs.v <- as.vector(noobs$sp_code)
 
 dat2 <- dat %>% 
-  filter(!sp_code %in% noobs.v)
+  filter(!sp_code %in% noobs.v) %>%
+  mutate(across(everything(), ~replace_na(.x, -99999)))
+
 
 # There are 17 sites in the final dataset sampled in 2018!!!!
 
@@ -265,27 +333,171 @@ write.csv(df, "data/intermediary/combined_substrate.csv", row.names = F)
 ## Plot kelp biomass dynamics
 ###########################################################################
 
-forplot <- sum %>%
-  separate(id, into = c("site", "transect"), sep = "(?<=[A-Za-z])(?=[0-9])") %>%
-  group_by(site) %>%
-  summarize(pv = mean(pv))
 
+kelp_ts <- wide %>%
+  pivot_longer(cols = c(ABUR1:WOOD3), names_to = "id", values_to = "biomass") %>%
+  separate(id, into = c("site", "transect"), sep = "(?<=[A-Za-z])(?=[0-9])", remove = F) %>%
+  left_join(sum)
 
-long %>% 
-  mutate(quarter.id = case_when(quarter == "fall" ~ ".75", 
-                                quarter == "winter" ~ ".0", 
-                                quarter == "spring" ~ ".25", 
-                                quarter == "summer" ~ ".5"), 
-         year.quarter = as.numeric(paste(year, quarter.id, sep = ""))) %>%
-  filter(year >= 2008) %>%
-  separate(id, into = c("site", "transect"), sep = "(?<=[A-Za-z])(?=[0-9])") %>%
-  left_join(forplot) %>%
-  mutate(site = forcats::fct_reorder(site, pv)) %>%
-  ggplot(aes(x = year.quarter, y = biomass))+
+ggplot(kelp_ts, aes(x = year.quarter, y = biomass))+
   geom_line(aes(color = site, group = transect))+
   facet_wrap(~site)+
   theme_classic()
 ggsave("figures/kelptimeseries.png")
+
+temp <- map_extinctions %>% 
+  pivot_longer(cols = c(ABUR1:WOOD3), names_to = "id", values_to = "extinction_events") %>%
+  filter(extinction_events == 1)
+
+ggplot(kelp_ts, aes(x = year.quarter, y = biomass))+
+  geom_line(aes(group = id, color = id), show.legend = F)+
+  geom_vline(data = temp, aes(xintercept = year.quarter[extinction_events == 1], group = id), color = "red", lty = 4)+
+  facet_wrap(~id)+
+  theme_bd()
+
+ggsave("figures/kelptimeseries_wextinctions.png", width = 20, height = 20)
+
+temp2 <- map_perturbations %>% 
+  pivot_longer(cols = c(ABUR1:WOOD3), names_to = "id", values_to = "perturbation_events") %>%
+  filter(perturbation_events == 1)
+
+ggplot(kelp_ts, aes(x = year.quarter, y = biomass))+
+  geom_line(aes(group = id, color = id), show.legend = F)+
+  geom_vline(data = temp2, aes(xintercept = year.quarter[perturbation_events == 1], group = id), color = "red", lty = 4)+
+  facet_wrap(~id)+
+  theme_bd()
+
+ggsave("figures/kelptimeseries_wperturbations.png", width = 20, height = 20)
+
+
+
+###########################################################################
+## Figures for Table S1 - Summary of persistence metrics
+###########################################################################
+
+
+ggplot(kelp_ts, aes(x = year.quarter, y = biomass))+
+  geom_line(aes(color = site, group = transect))+
+  facet_wrap(~forcats::fct_reorder(id, cv.canopy))+
+  theme_classic()
+
+kelp_ts %>% 
+  filter(id == "OAKS3") %>% 
+  ggplot(aes(x = year.quarter, y = biomass))+
+  geom_line()+
+  labs(x = "", y = "Biomass")+
+  theme_classic()
+
+ggsave("figures/tables1_1.png", width = 3, height = 2)
+
+
+persistence %>%
+  ggplot(aes(x = mean.canopy, y = sd.canopy))+
+  geom_point()+ 
+  labs(x = "Mean kelp biomass", y = "SD kelp biomass")+
+  theme_classic()
+
+ggsave("figures/tables1_2.png", width = 3, height = 2)
+
+
+persistence %>%
+  ggplot(aes(x = median.canopy))+
+  geom_histogram(color = "white")+
+  labs(x = "Median kelp biomass")+
+  theme_classic()
+
+ggsave("figures/tables1_3.png", width = 3, height = 2)
+
+
+persistence %>%
+  ggplot(aes(x = d))+
+  geom_histogram(color = "white", bins = 15)+
+  labs(x = "d")+
+  theme_classic()
+
+ggsave("figures/tables1_4.png", width = 3, height = 2)
+
+persistence %>%
+  ggplot(aes(x = pv))+
+  geom_histogram(color = "white", bins = 15)+
+  labs(x = "pv")+
+  theme_classic()
+
+ggsave("figures/tables1_5.png", width = 3, height = 2)
+
+kelp_ts %>%
+  filter(id == "CARP6") %>%
+ggplot(aes(x = year.quarter, y = biomass))+
+  geom_line()+
+  geom_vline(data = filter(temp, id == "CARP6"), aes(xintercept = year.quarter[extinction_events == 1], group = id), color = "red", lty = 4)+
+  labs(x = "", y = "Kelp biomass")+
+  theme_classic()
+
+ggsave("figures/tables1_6.png", width = 3, height = 2)
+
+
+persistence %>%
+  ggplot(aes(x = perturbations))+
+  geom_histogram(color = "white", bins = 8)+
+  labs(x = "Num. of perturbations")+
+  theme_classic()
+
+ggsave("figures/tables1_7.png", width = 3, height = 2)
+
+
+kelp_ts %>%
+  filter(id == "INNP3") %>%
+  ggplot(aes(x = year.quarter, y = biomass))+
+  geom_line()+
+  geom_vline(data = filter(temp, id == "CARP6"), aes(xintercept = year.quarter[extinction_events == 1], group = id), color = "red", lty = 4)+
+  labs(x = "", y = "Kelp biomass")+
+  theme_classic()
+
+ggsave("figures/tables1_8.png", width = 3, height = 2)
+
+
+persistence %>%
+  ggplot(aes(x = timesincelastabsent))+
+  geom_histogram(color = "white", bins = 15)+
+  labs(x = "Time since last absent")+
+  theme_classic()
+
+ggsave("figures/tables1_9.png", width = 3, height = 2)
+
+
+
+persistence %>%
+  ggplot(aes(x = prop_zero))+
+  geom_histogram(color = "white", bins = 10)+
+  labs(x = "Proportion of time kelp absent")+
+  theme_classic()
+
+ggsave("figures/tables1_10.png", width = 3, height = 2)
+
+
+persistence %>%
+  ggplot(aes(x = prop_50))+
+  geom_histogram(color = "white", bins = 10)+
+  labs(x = "Proportion of time kelp >50% of max")+
+  theme_classic()
+
+ggsave("figures/tables1_11.png", width = 3, height = 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
