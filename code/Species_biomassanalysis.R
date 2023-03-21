@@ -10,17 +10,17 @@ df <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv", na.st
 # Find top 10 by biomass across all sites
 
 filt <- df %>% 
-  group_by(sp_code, group) %>%
+  group_by(sp_code, group, scientific_name) %>%
   summarize(total_biomass = sum(dry_gm2, na.rm = T)) %>%
   ungroup() %>%
   group_by(group) %>% 
   slice_max(n = 10, total_biomass) %>%
   filter(group %in% c("epiSI", "ua")) %>%
-  select(sp_code)
+  select(sp_code, total_biomass, scientific_name)
 
 filt_vec <- as.vector(filt$sp_code)
 
-
+write.csv(filt, "data/intermediary/toptenbybiomass.csv", row.names = F)
 
 
 urc <- read.csv("data/intermediary/species_withpersistence-pixelscale.csv") %>% 
