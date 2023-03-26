@@ -1,6 +1,8 @@
 # README: code to compute the time it takes the benthic community to recover to within 10% of their pre-disturbance 
 #values as a function of number of disturbances
 
+library("tidyverse")
+
 # parameters
 L_surface<-1000 #surface irradiance (mol/m^2/s)
 K_A<-1 #giant kelp frond density carrying capacity (prop. max. fronds/m^2)
@@ -298,11 +300,24 @@ rtimes50 <- recov_fun(0.5)
 # scraping = 0.75 (25% remain)
 rtimes25 <- recov_fun(0.25)
 
+
+# turn into data frame (also add the 0,0 cases -> when there is no disturbance, recovery time = 0d))
+rtimesdf <- tibble(
+  c(0,ndist),
+  c(0,rtimes1),
+  c(0,rtimes75),
+  c(0,rtimes50),
+  c(0,rtimes25)
+)
+
+# write this to a csv file
+write.csv(rtimesdf, "data/intermediary/ModelRecovTimes.csv")
+
 # plot results (note here added point at 0,0 -> when there is no disturbance, recovery time = 0d)
-plot(x= c(0,ndist), y = c(0,rtimes1), type = "l", xlab = "number of disturbances", ylab = "recovery time (d)", ylim = c(0, 1100))
-lines(x= c(0,ndist), y = c(0,rtimes75), type = "l", lty = 2)
-lines(x= c(0,ndist), y = c(0,rtimes50), type = "l", lty = 3)
-lines(x= c(0,ndist), y = c(0,rtimes25), type = "l", lty = 4)
+plot(x= rtimesdf$ndist, y = rtimesdf$rtimes1, type = "l", xlab = "number of disturbances", ylab = "recovery time (d)", ylim = c(0, 1100))
+lines(x= rtimesdf$ndist, y = rtimesdf$rtimes75, type = "l", lty = 2)
+lines(x= rtimesdf$ndist, y = rtimesdf$rtimes50, type = "l", lty = 3)
+lines(x= rtimesdf$ndist, y = rtimesdf$rtimes25, type = "l", lty = 4)
 legend("bottomright", legend = c("0", "0.25","0.5", "0.75"), title = "Fraction benthos \ndisturbed", lty = c(1, 2, 3, 4), bty = "n")
 
 
