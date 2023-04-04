@@ -2,8 +2,8 @@ source("code/1_setup.R")
 source("code/theme.R")
 
 ua_col = "chocolate1"
-  si_col = "royalblue1"
-    kelp_col = "darkgreen"
+si_col = "royalblue1"
+kelp_col = "darkgreen"
       
     
     # modeling
@@ -47,6 +47,51 @@ rstanarm::prior_summary(mod1) # Used default priors. Rstanarm adjusts priors to 
 launch_shinystan(mod1, ppd = FALSE) # Check model convergence, Rhat, and chain mixing
 
 print(summary(mod1), digits = 3) # Print summary of the model
+
+# Summary stats for paper
+
+newdata <- expand.grid(perturbations = c(0, 8), group = c("ua", "epiSI")) %>%
+  mutate(sand_cover = median(df$sand_cover, na.rm = T), 
+         total_urc_biomass = median(df$total_urc_biomass, na.rm = T), 
+         current_kelpbiomass = median(df$current_kelpbiomass, na.rm = T), 
+         timesincelastabsent = median(df$timesincelastabsent, na.rm = T), 
+         prop_zero = median(df$prop_zero, na.rm = T))
+
+predictions <- rstanarm::posterior_epred(mod1, newdata = newdata, re.form = NA)
+
+pred.list <- apply(predictions, 2, median_qi)
+
+names(pred.list) <- c("0 - ua", "8 - ua", "0 - epiSI", "8 - epiSI")
+
+pred.df <- do.call(rbind, pred.list) %>%
+  rownames_to_column() %>% 
+  separate(rowname, into = c("perturbations", "guild"), sep = "-")
+
+pred.df[1,3:5] - pred.df[2,3:5]
+
+pred.df[3,3:5] - pred.df[4,3:5]
+
+
+newdata <- expand.grid(timesincelastabsent = c(1, 10), group = c("ua", "epiSI")) %>%
+  mutate(sand_cover = median(df$sand_cover, na.rm = T), 
+         total_urc_biomass = median(df$total_urc_biomass, na.rm = T), 
+         current_kelpbiomass = median(df$current_kelpbiomass, na.rm = T), 
+         perturbations = median(df$perturbations, na.rm = T), 
+         prop_zero = median(df$prop_zero, na.rm = T))
+
+predictions <- rstanarm::posterior_epred(mod1, newdata = newdata, re.form = NA)
+
+pred.list <- apply(predictions, 2, median_qi)
+
+names(pred.list) <- c("1 - ua", "10 - ua", "1 - epiSI", "10 - epiSI")
+
+pred.df <- do.call(rbind, pred.list) %>%
+  rownames_to_column() %>% 
+  separate(rowname, into = c("timesince", "guild"), sep = "-")
+
+pred.df[1,3:5] - pred.df[2,3:5]
+
+pred.df[3,3:5] - pred.df[4,3:5]
 
 #--------------------------
 ## Coefficient plot
@@ -128,6 +173,9 @@ p1 <- ggplot(rd_predictions, aes(x = timesincelastabsent, y = percent_cover))+
 
 lm1 <- lm(percent_cover ~ timesincelastabsent*group, rd_predictions)
 summary(lm1)
+
+newdata = expand.grid(timesincelastabsent = c(0,8), group = c("algae", "invert"))
+newdata$prediction <- predict(lm1, newdata = newdata)
 
 p2 <- df %>%
   filter(group == "ua") %>%
@@ -215,6 +263,8 @@ p7 <- ggplot(rd_predictions, aes(x = perturbations, y = percent_cover))+
 
 lm1 <- lm(percent_cover ~ perturbations*group, rd_predictions)
 summary(lm1)
+newdata = expand.grid(perturbations = c(0,8), group = c("algae", "invert"))
+newdata$prediction <- predict(lm1, newdata = newdata)
 
 p8 <- df %>%
   filter(group == "ua") %>%
@@ -249,6 +299,10 @@ ggsave("figures/perturbations-percover.png", width = 6, height = 12 )
 cowplot::plot_grid(p1, p2, p3, p7+labs(y = ""), p8+labs(y = ""), p9+labs(y = ""), nrow = 3, ncol = 2, byrow = F, labels = "auto")
 
 ggsave("figures/six_panel_fig3-percover.png", width = 12, height = 12 )
+
+
+
+
 
 
 
